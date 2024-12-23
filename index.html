@@ -1,1 +1,76 @@
-<html><head></head></html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Deportes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Página de Deportes</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#articulos">Artículos Recientes</a></li>
+                <li><a href="#fotos">Fotos</a></li>
+                <li><a href="#videos">Videos</a></li>
+                <li><a href="#contacto">Formulario de Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio">
+        <h2>Bienvenido a nuestra página de deportes</h2>
+        <p>Explora las últimas noticias, fotos y videos del mundo del deporte.</p>
+    </section>
+
+    <section id="articulos">
+        <h2>Artículos Recientes</h2>
+        <article>
+            <h3>Artículo 1</h3>
+            <p>Contenido del artículo 1.</p>
+        </article>
+        <article>
+            <h3>Artículo 2</h3>
+            <p>Contenido del artículo 2.</p>
+        </article>
+    </section>
+
+    <section id="fotos">
+        <h2>Fotos</h2>
+        <img src="foto1.jpg" alt="Foto 1">
+        <img src="foto2.jpg" alt="Foto 2">
+    </section>
+
+    <section id="videos">
+        <h2>Videos</h2>
+        <video controls>
+            <source src="video1.mp4" type="video/mp4">
+            Tu navegador no soporta la etiqueta de video.
+        </video>
+        <video controls>
+            <source src="video2.mp4" type="video/mp4">
+            Tu navegador no soporta la etiqueta de video.
+        </video>
+    </section>
+
+    <section id="contacto">
+        <h2>Formulario de Contacto</h2>
+        <form action="#" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Página de Deportes. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
+
